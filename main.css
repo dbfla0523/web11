@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hi+Melody&family=Nanum+Pen+Script&family=Shadows+Into+Light&display=swap');
+
+
+/* Typography 
+	/*
+font-family: 'Architects Daughter', cursive;
+font-family: 'Hi Melody', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+	
+/* Layout */
+.content {width:1000px; height:1000; margin:30px;}
+
+/* Header */
+h1{
+	color:white;
+	background-color:SandyBrown;
+	font-size:50px;
+	font-family: 'Architects Daughter', cursive;
+	font-weight:bold;
+	font-style:italic;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	border:3px dashed #838383;
+	display:inline
+	padding:20px;
+}
+
+.rabbit{
+	font-size:30px;
+	color:gray;
+	font-family: 'Hi Melody', cursive;
+	font-weight:bold;
+	display:inline-block;
+	margin:20px;
+}
+	
+h2{
+	color:gray;
+	font-size:25px;
+	font-family: 'Hi Melody', cursive;
+	font-weight:bold;
+	letter-spacing:5px;
+	line-height:15px;
+	font-style:italic;
+}
+header{
+	border:3px dotted gray;
+	padding:20px 20px 30px 30px;
+	margin:30px 20px 30px 20px;
+	width:90%;
+}
+
+.sokdam{
+	margin:40px;
+	font-family: 'Hi Melody', cursive;
+	font-weight:bold;
+	font-size:30px;
+	word-spacing:5px;
+	color:#838383
+}
+
+
+/* Main content */
+body{
+	background-image:url("토끼3.jpg");   
+}
+.content{
+	font-size:18px;
+	font-family: 'Hi Melody', cursive;
+	font-weight:bold;
+	color:#838383
+}
+
+.and{
+	border:2px dashed gray;
+	background-color:hsl(75, 57%, 63%);
+	word-spacing:10px;
+	padding:20px;
+	
+}
+a{
+    font-size:20px;
+	color:SandyBrown;
+	margin:20px 10px;
+}
+.zong p{
+	margin-bottom:35px;
+	text-size:17px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+.content ul li{
+	vertical-align: baseline;
+	float:left;
+	width:25%;
+	text-align:center;
+	border-right:1px solid #838383;
+	box-sizing:border-box;
+	line-height:52px;
+}
+.content ul li:last-child{
+	border-right:none;
+}
+.content ul li a{
+	display:block;
+	text-decoration:none;
+	color:#555;
+}
+.content ul li a:hover{
+	color:#fff;
+	background:#ffff66;
+}	
+	
+.content ul{
+	border:1px solid #838383;
+}
+
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+/* Footer */
+footer h1{
+background:hsl(75, 57%, 63%);
+color:#838383;
+font-size:15px;
+font-family: 'Hi Melody', cursive;
+}	
+	
+	
+	
+	
+	
