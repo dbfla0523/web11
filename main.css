@@ -80,17 +80,15 @@ body{
 	padding:20px;
 	
 }
-a{
+.a{
     font-size:20px;
-	color:SandyBrown;
-	margin:20px 10px;
 }
 .zong p{
 	margin-bottom:35px;
 	text-size:17px;
 }
 
-ol, ul {
+ul,li {
 	list-style: none;
 }
 
@@ -126,6 +124,9 @@ ol, ul {
 	display:block;
 	clear:both;
 }
+.clearfix{
+	padding: 0;
+	
 
 /* Footer */
 footer h1{
