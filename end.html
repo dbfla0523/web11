@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이디 찾기</title>
+    <style>
+        @font-face {
+        font-family: 'Wemakeprice-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        font-family: 'Wemakeprice-Bold';
+        margin:30px;
+    }
+        #fixheader{
+        display:flex;
+        }
+
+        .indicator li{
+            list-style: none;
+            flex-direction: row;
+            margin-right:-3px;
+        }
+
+        .first span{
+            display:inline-block;
+            width:400px;
+            height:16px;
+            padding:15px;
+            text-align: center;
+            font-size:12px;
+            background-color:gray;
+            color:#fff;
+            font-family: 'Wemakeprice-Bold';
+        }
+        .first{
+            position:relative;
+        }
+        .first:after{
+            content:" ";
+            width:5px;
+            height:31px;
+            border-top:9px solid transparent;
+            border-left:10px solid gray;
+            border-bottom:6px solid transparent;
+            position:absolute;
+            left:100%;
+        }
+
+        
+        .last span{
+            font-family: 'Wemakeprice-Bold';
+            display:inline-block;
+            width:400px;
+            height:16px;
+            padding:15px;
+            text-align:center;
+            font-size:12px;
+            background-color:rgb(243, 98, 14);
+            color:#fff;
+        }
+        h1,h2{
+            margin-left:40px;
+        }
+        table{
+            margin-bottom:20px;
+        }
+        button{
+            display:inline-block;
+            width:400px;
+            height:50px;
+            padding:0;
+            color:tomato;
+            border:1px solid tomato;
+            background-color: white;
+            font-family: 'Wemakeprice-Bold';
+            margin:30px;
+        }
+        img{
+            margin-left:20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+    <div class="wrap">
+    <ul class="indicator" id="fixheader">
+    <li class="first">
+        <span>프로필입력</span>
+    </li>
+    <li class="last">
+        <span>가입완료</span>
+    </li>
+</ul>
+</div>
+    <form action="" method="post">
+        <head>
+            <h1>회원가입이 완료되었습니다!</h1>
+
+            <h2>모든 회원가입 절차가 완료되었습니다.<br>
+            로그인 후 모든 서비스를 이용하실 수 있습니다.</h2>
+        </head>
+        <main>
+            <img src="img/편안.jpg" alt="">
+        </main>
+
+        <table  width=900 text-align=center style="border:1px solid red">
+            <tr>
+                <th>이름</th>
+                <td>최유림</td>
+            </tr>
+            <tr>
+                <th>아이디</th>
+                <td>dbfla0523</td>
+            </tr>
+        </table>
+
+        <tr>
+            <td><button type="button" onclick="location.href='h1.html' ">로그인화면으로</button></td>
+            <td><button type="button" onclick="location.href='#' ">메인페이지</button></td>
+        </tr>
+
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    >
+    <title>로그인 화면</title>
+    <style>
+        @font-face {
+        font-family: 'Wemakeprice-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        body{
+            font-family: 'Wemakeprice-Bold';
+            background-size:cover;
+            background-image: url("img/main.png");  
+        position:relative;
+        }
+        #wrap{
+            position:absolute;
+            padding:35px;
+            width:300px;
+            height:240px;
+            text-align:center;
+            border:1px solid #fff ;
+            margin-left:350px;
+            margin-top:110px;
+            background-color: #fff;
+        }
+        #rr{
+            margin-left:220px;
+        }
+        .ip{
+            width:150px;
+        }
+        .arrow{
+            margin-left:270px;
+        }
+    
+        #i{
+            margin-left:12px;
+        }
+        button{
+            background-color: white;
+            border-color:rgba(255,255,255,0);
+            color:black;
+            font-family: 'Wemakeprice-Bold';
+        }
+
+        button:nth-child(2){
+            margin-left:-12px;
+        }
+
+    </style>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+</head>
+<body>
+<form action="" method="post">
+
+<div id="wrap">
+
+    <div id="i">
+        <label for="id">아이디&nbsp;:</label>
+        
+        <input class="ip" type="text" name="login_id" id="id">
+           <span class="arrow">
+            <a href="#">
+            <i class="fas fa-arrow-right"></i>
+            </a>
+            </span>
+    </div>
+    
+    <label for="pw">비밀번호: </label>
+    <input class="ip" type="password" name="login_pw" id="pw">
+
+    <p>
+    <label><input type="checkbox">아이디저장</label> 
+    <input type="checkbox" name="keep_" id="keep">
+    <label for="keep">로그인 상태유지 </label>
+    </p>
+
+    <hr>
+ 
+    <div>
+        <button type="button" onclick="location.href='id_search.html' ">아이디</button>
+
+        <button type="button" onclick="location.href='pw_searach.html' ">/비밀번호 찾기</button>
+
+        <button type="button" onclick="location.href='h22.html' ">회원가입</button>
+
+    </div>
+    
+</div>
+
+</form>
+</body>
+</html>
